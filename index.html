@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>FAYAS </span><span>MOHAMMED</span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is<span></span></h1>
+        <h1>Fayas<span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+        <a href="./Resume_09_2020.pdf" type="button" class="cta">Download CV</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title"><span>Skills</span></h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
+          magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
+          voluptatum explicabo!</p> -->
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/ios/50/000000/python--v2.png" /></div>
+          <h2>Python Programming</h2>
+          <p>Three years of experience in Python programming. Worked on several modules such as Flask, FastAPI, Sklearn,
+            Pandas, Numpy, Tkinter, PyQT, etc. </p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/database.png" /></div>
+          <h2>Database</h2>
+          <p>Worked on MySQL Database with Python. RESTApi for accessing database using Flask, psycopg2, SQLAlchemy,
+            etc.
+            module in python. </p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/ios-glyphs/60/000000/two-smartphones.png" /></div>
+          <h2>App Development</h2>
+          <p>Android and iOS application Development using dart programming language. Familiar with Material and
+            Cupertino designs </p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/web-design.png" /></div>
+          <h2>Web Development</h2>
+          <p>Good understanding of HTML, CSS, JavaScript, and Bootstrap. Backend Development using Flask and jinja
+            template. Deployment and database connection.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Stackoverflow question Tagging</h1>
+            <h2><b>Multi-Label clssification | NLP | Data cleaning | Logistic regression</b></h2>
+            <p>Predict as many tags (c, c++, python, memory, etc. ) as possible with high precision and recall.
+              Tagging will help StackOverflow to give Question to right persons to answer.
+              Incorrect tags could impact customer experience on StackOverflow. <br><br><a
+                style="color:crimson; font-size: 18px; font-weight: bold;"
+                href="https://colab.research.google.com/drive/1E9nz9_SMTur1o-grUO2tgAClldLZTnou" target="_blank">View
+                Jupyter Notebook</a></p>
+          </div>
+          <div class="project-img">
+            <img src="./img/stack-overflow.jpg" alt="stack-overflow">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Netflix Movie recommendation</h1>
+            <h2>EDA | KNN </h2>
+            <p>Challenge is to predict whether someone will enjoy a movie based on how much they liked or disliked other
+              movies. Netflix uses those predictions to make personal movie recommendations based on each customer’s
+              unique tastes.
+              <br><br>
+              <a style="color:crimson; font-size: 18px; font-weight: bold;"
+                href="https://colab.research.google.com/drive/1q9Kd4GkHTHQbPbXrq4JnN7UaZRkHYQ_p" target="_blank">View
+                Jupyter Notebook</a>
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/Netflix-header.jpg" alt="Netflix-header">
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Quora Question Pairs</h1>
+            <h2>EDA | KNN </h2>
+            <p>Identify which questions asked on Quora are duplicates of questions that have already been asked. This
+              could be useful to instantly provide answers to questions that have already been answered.
+              <br><br>
+              <a style="color:crimson; font-size: 18px; font-weight: bold;"
+                href="https://colab.research.google.com/drive/1jylBJPJVYUoaYkG8D5Mb9-q5JaBMD_O0" target="_blank">View
+                Jupyter Notebook</a>
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/Quora.png" alt="Quora-header">
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Personalized Caner Diagnosis</h1>
+            <!-- <h2>Coding is Love</h2> -->
+            <p>Challenge is to develop algorithms to classify genetic mutations based on clinical evidence.
+              Data given are gene, variation, text, and class. The class varies from 1-9 out of which some belongs to
+              positive cancer result.<br><br><a style="color:crimson; font-size: 18px; font-weight: bold;"
+                href="https://colab.research.google.com/drive/1UGGbhF9b3LS-w3QMEH8ykGZXX18i3A4c" target="_blank">View
+                Jupyter Notebook</a>
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/cancer.jpg" alt="img">
+          </div>
+        </div>
+
+
+        <!-- <div class="project-item">
+          <div class="project-info">
+            <h1>New York Taxi Demand Prediction</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/nyc_taxi.jpeg" alt="img">
+          </div>
+        </div> -->
+
+
+        <!-- <div class="project-item">
+          <div class="project-info">
+            <h1>IMDB Sentiment Analysis</h1>
+            <h2>LSTM model</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/imdb.jpeg" alt="img">
+          </div>
+        </div> -->
+
+
+        <!-- <div class="project-item">
+          <div class="project-info">
+            <h1>Human Activity Recognition</h1>
+            <h2>Deep learning | LSTM</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/activity.jpg" alt="img">
+          </div>
+        </div> -->
+
+        <!-- <div class="project-item">
+          <div class="project-info">
+            <h1>Music Generation</h1>
+            <h2>Deep learning | Char-RNN</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/music.jpg" alt="img">
+          </div>
+        </div> -->
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Shop item management using RESTAPI </h1>
+            <h2>Flask | PostgreSQL | Deployment</h2>
+            <p>
+              RESTfull API created in python using flask module. API is used to access the database for storing Shop
+              data such as item, price, discount, quantity, etc. API is deployed on Heroku.com.
+              <br><br>
+              <a style="color:crimson; font-size: 18px; font-weight: bold;"
+                href="https://github.com/amanupadhyay/Shop_API" target="_blank">View source code in
+                Github</a>
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/API.png" alt="API-image">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Data science</h2>
+        <p>I'm a Python developer with three years of experience.
+          I did my B.E in Electronics from Mumbai University.
+          Currently, I'm pursuing M.E in computer science from Mumbai University.
+          I have used Python language in various fields such as API development, Artificial intelligence, IoT, Robotics,
+          and database management.
+          I have an intense passion for Data Science and Machine Learning.
+          I have almost one year of experience in Computer vision and Machine learning.</p>
+        <a href="./Resume_09_2020.pdf" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 7902462522</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>mhdfayas4255@gmail.com</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>kollam, kerala, India</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>F</span>AYAS <span>M</span>OHAMMED</h1>
+      </div>
+      <!-- <h2>Your Complete Web Solution</h2> -->
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#" target="_blank"><img
+              src="https://img.icons8.com/material-outlined/50/4a90e2/facebook-circled--v1.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#" target="_blank"><img src="https://img.icons8.com/glyph-neue/64/4a90e2/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#" target="_blank"><img src="https://img.icons8.com/ios-filled/64/4a90e2/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/amanupadhyay" target="_blank"><img
+              src="https://img.icons8.com/ios-filled/50/4a90e2/github.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2022 Fayas. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
